@@ -1,0 +1,14 @@
+.card-body{
+    background-color:rgb(166, 206, 193);
+}
+
+.contact-image{
+
+    border-radius: 20%;
+    
+}
+.list-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
