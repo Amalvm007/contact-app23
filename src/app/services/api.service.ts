@@ -43,4 +43,16 @@ export class ApiService implements OnInit {
   addContact(contactBody:any){
     return this.http.post(this.baseUrl,contactBody)
   }
+
+  // api call for delete an contact
+  deleteContact(contactId:any){
+    return this.http.delete(`${this.baseUrl}/${contactId}`)
+
+
+  }
+
+  // api call for update an contact
+  updateContact(contactId:any,contactBody:any){
+   return  this.http.put(`${this.baseUrl}/${contactId}`,contactBody)
+  }
 }

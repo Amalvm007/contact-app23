@@ -15,14 +15,14 @@
 <!-- view contact details -->
 <div class="container mt-4 mb-5">
     <div class="row border p-4 align-items-center">
-        <div class="col-md-4">
-            <img width="300px" height="250px" [src]="contact.photo" alt="on imagr">
+        <div id="group" class="col-md-3 align-items-center">
+            <img   width="200px" height="250px" [src]="contact.photo" alt="on imagr">
             <br>
 
             <a style="margin-left: 50px;" class="btn btn-warning mt-4" routerLink="/">Go back</a>
 
         </div>
-        <div class="col-md-8">
+        <div  class="col-md-8 ">
             <!-- contact details -->
             <ul class="list-group">
                 <li class="list-group-item">Name: <b>{{contact.name}}</b></li>
